@@ -9,5 +9,5 @@
   "devDependencies": {
     "lerna": "^3.8.0"
   },
-  "name": "yo-generators"
+  "name": "@uoks/yo-generators"
 }

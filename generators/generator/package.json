@@ -1,8 +1,20 @@
 {
-  "name": "@uoks/generator",
+  "name": "generator-uoks-generator",
   "version": "1.0.0",
   "description": "Generate a yo generator with es6",
-  "main": "index.js",
-  "author": "Ming Wan <uolgks@gmail.com>",
-  "license": "MIT"
+  "main": "app/index.js",
+  "author": {
+    "name": "Ming Wan",
+    "email": "uolgks@gmail.com",
+    "url": "https://github.com/uoks"
+  },
+  "files": [
+    "app"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "yeoman-generator": "^3.2.0",
+    "yosay": "^2.0.2"
+  }
 }
