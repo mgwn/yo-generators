@@ -1,0 +1,6 @@
+{
+  "packages": [
+    "generators/*"
+  ],
+  "version": "0.0.0"
+}

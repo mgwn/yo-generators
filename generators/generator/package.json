@@ -1,0 +1,8 @@
+{
+  "name": "@uoks/generator",
+  "version": "1.0.0",
+  "description": "Generate a yo generator with es6",
+  "main": "index.js",
+  "author": "Ming Wan <uolgks@gmail.com>",
+  "license": "MIT"
+}

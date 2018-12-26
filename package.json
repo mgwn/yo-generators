@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "scripts": {
+    "boostrap": "lerna bootstrap"
+  },
+  "workspaces": [
+    "generators/*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.8.0"
+  },
+  "name": "yo-generators"
+}
