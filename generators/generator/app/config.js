@@ -10,13 +10,25 @@ module.exports = {
         }
     },
     prompts: [
-        ''
+        {
+            type: 'input',
+            name: 'description',
+            message: 'description'
+        },
+        {
+            type: 'version',
+            name: 'version',
+            message: 'version',
+            default: '1.0.0'
+        }
     ],
     dirsToCreate: [],
     filesToCopy: [
-
     ],
     filesToRender: [
-
+        {
+            input: '_README.md',
+            output: 'README.md'
+        }
     ]
 }

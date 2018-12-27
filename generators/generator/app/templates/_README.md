@@ -1,18 +1,16 @@
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and @uoks/generator-generator using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and <%- generatorName %> using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
 npm install -g yo
-npm install -g @uoks/generator-generator
+npm install -g <%- generatorName %>
 ```
 
 Then generate your new project:
 
 ```bash
-yo @uoks/generator test
-cd test
-yo @uoks/generator:sub test
+yo <%- yoName %>
 ```
 
 ## Getting To Know Yeoman

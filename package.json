@@ -9,5 +9,8 @@
   "devDependencies": {
     "lerna": "^3.8.0"
   },
-  "name": "@uoks/yo-generators"
+  "name": "@uoks/yo-generators",
+  "dependencies": {
+    "eslint": "^5.11.1"
+  }
 }
